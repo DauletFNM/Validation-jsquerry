@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+    text-align: center;
+    list-style-type: none;
+}
+
+#validationlist{
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    border: solid 2px black;
+    margin: 100px;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li {
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+li label {
+  width: 120px;
+}
+
+input {
+  flex: 1;
+}
+label.error { 
+    color: red; 
+    font-size: 14px; 
+    margin-top: 5px; 
+    display: block;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Валидация</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <form id="validationList">
+        <h1>Contact</h1>
+        <ul>
+            <li>
+                <label>Логин:
+                    <input type="text" name="login" placeholder="Ваш логин">
+                </label>
+            </li>
+            <li>
+                <label>Email:
+                    <input type="text" name="email" placeholder="Ваш email">
+                </label>
+            </li>
+            <li>
+                <label>Number:
+                    <input type="number" name="number" placeholder="Ваш номер">
+                </label>
+            </li>
+        </ul>
+        <button id="submitBtn" type="submit">SUBMIT!</button>
+    </form>
+
+    <button id="myButton" onclick="displayText()">Help!</button>
+    <p id="message"></p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
